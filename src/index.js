@@ -1,9 +1,9 @@
-
 const color = require('chalk');
 const emoji = require('node-emoji');
 
 function pimpMyRoutes(req, res, next) {
   const ghost = color.bgMagenta.white(emoji.get('ghost'));
+  const sweatSmile = emoji.get('sweat_smile');
 
   try {
     if (req.method === 'GET') {
@@ -33,6 +33,11 @@ function pimpMyRoutes(req, res, next) {
       );
       console.log(color.bgGreen.black.bold.italic.inverse('Request Body:'));
       console.log(color.bgGreen.black.bold(JSON.stringify(req.body)));
+      console.log(
+        color.bgGreen.black.bold.italic(
+          `Sometimes, the req.body may errouneously log as 'undefined', in which case, you may need to log it yourself ${sweatSmile}`
+        )
+      );
       // console.log(color.bgWhite.black(`REQ OBJECT: `));
       // console.log(req);
     }
