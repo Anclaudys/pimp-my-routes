@@ -8,12 +8,8 @@ An npm-extension that creates beautiful visualizations of your application route
 Debugging HTTP requests can become a monotonous task and distinguishing http requests types at a glance can sometimes be confusing if you are dealing with several requests in your applicaton. Pimp My Routes color codes HTTP requests based on their method types on your terminal and uses emojis if your terminal supports it. Debugging is fun again! 
 
 ## Technologies Used
-Please list
-the technologies
-you used
-for this solution
-
-
+Npm dependencies: Chalk, Node-Emoji
+Node Express
 
 
 
