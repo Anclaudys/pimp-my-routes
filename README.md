@@ -1,4 +1,4 @@
-# pimpmyroutes
+# Pimp My Routes
 ![pimpmyroutes](https://user-images.githubusercontent.com/64286678/138533187-4338dd28-a2bc-4fd2-a450-5410c5899e04.png)
 
 PMR - Visualize Your Routes
