@@ -1,8 +1,10 @@
 # Pimp My Routes
-Visualize Your Routes 
-![pimpmyroutes](https://user-images.githubusercontent.com/64286678/138533187-4338dd28-a2bc-4fd2-a450-5410c5899e04.png)
 
 An npm-extension that creates beautiful visualizations of your application routes. 
+
+![pimpmyroutes](https://user-images.githubusercontent.com/64286678/138533187-4338dd28-a2bc-4fd2-a450-5410c5899e04.png)
+<br/>
+Visualize Your Routes 
 
 ## Motivation
 Debugging HTTP requests can become a monotonous task and distinguishing http requests types at a glance can sometimes be confusing if you are dealing with several requests in your applicaton. Pimp My Routes color codes HTTP requests based on their method types on your terminal and uses emojis if your terminal supports it. Debugging is fun again! 
