@@ -11,7 +11,7 @@ Debugging HTTP requests can become a monotonous task and distinguishing http req
 Npm dependencies: Chalk, Node-Emoji <br/>
 Node Express
 
-# FIND AT NPMJS.COM
+## Fint it at npmjs.com!
 https://www.npmjs.com/package/pimpinmyroutes
 
 Instead of having to squint to be able to tell what type of http request is being made to your routes, you can now see each individual one in different colors!
